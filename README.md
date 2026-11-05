@@ -27,7 +27,7 @@ The use case is a Python-based research workflow that analyses public discussion
 ## Contents
 
 - [`INTEGRATION_DESIGN.md`](INTEGRATION_DESIGN.md): Proposed API operations, data handling and safeguards.
-- [`example_read_only_client.py`](example_read_only_client.py): An illustrative, intentionally non-networked Python sample showing the intended record shaping and approval gate. **Not a working Reddit API connector.**
+- [`reddit_readonly_client.py`](reddit_readonly_client.py): Functional, read-only OAuth API client with an approval gate (no live requests made).\n- [`test_reddit_readonly_client.py`](test_reddit_readonly_client.py): Offline tests using synthetic responses.\n- [`API_REVIEW_SCOPE.md`](API_REVIEW_SCOPE.md): Source-code scope, safety gates and implementation limitations.\n- [`example_read_only_client.py`](example_read_only_client.py): Earlier non-networked observation example.
 
 ## Important boundaries
 
